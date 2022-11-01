@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/oouxx/dm/util"
+	"github.com/oouxx/dm/v2/util"
 )
 
 var DB2G db2g

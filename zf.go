@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/oouxx/dm/util"
+	"github.com/oouxx/dm/v2/util"
 )
 
 type logFilter struct{}

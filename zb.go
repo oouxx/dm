@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/oouxx/dm/i18n"
+	"github.com/oouxx/dm/v2/i18n"
 )
 
 // 驱动级错误

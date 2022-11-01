@@ -8,7 +8,7 @@ import (
 	"database/sql"
 	"log"
 
-	_ "github.com/oouxx/dm"
+	_ "github.com/oouxx/dm/v2"
 )
 
 func main() {

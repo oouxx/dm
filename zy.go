@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/oouxx/dm/util"
+	"github.com/oouxx/dm/v2/util"
 )
 
 const (
