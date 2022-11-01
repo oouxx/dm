@@ -1,4 +1,4 @@
-module github.com/oouxx/dm
+module github.com/oouxx/dm/v2
 
 go 1.13
 
