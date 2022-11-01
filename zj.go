@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/chunanyong/dm/util"
+	"gitee.com/oouxx/dm/util"
 )
 
 var G2DB g2db

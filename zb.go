@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"gitee.com/chunanyong/dm/i18n"
+	"gitee.com/oouxx/dm/i18n"
 )
 
 // 驱动级错误
@@ -72,7 +72,7 @@ var (
 	ECGO_FATAL_ERROR     = newDmError(20004, "error.fatalError")
 )
 
-//Svr Msg Err
+// Svr Msg Err
 var (
 	ECGO_DATA_OVERFLOW       = newDmError(-6102, "error.dataOverflow")
 	ECGO_DATETIME_OVERFLOW   = newDmError(-6112, "error.datetimeOverflow")

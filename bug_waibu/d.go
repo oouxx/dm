@@ -8,7 +8,7 @@ import (
 	"database/sql"
 	"log"
 
-	_ "gitee.com/chunanyong/dm"
+	_ "gitee.com/oouxx/dm"
 )
 
 func main() {

@@ -10,7 +10,7 @@ import (
 	"database/sql/driver"
 	"sync"
 
-	"gitee.com/chunanyong/dm/i18n"
+	"gitee.com/oouxx/dm/i18n"
 )
 
 // 发版标记

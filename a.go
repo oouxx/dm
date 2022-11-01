@@ -12,7 +12,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"gitee.com/chunanyong/dm/security"
+	"gitee.com/oouxx/dm/security"
 )
 
 const (
