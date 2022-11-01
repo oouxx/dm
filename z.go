@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/oouxx/dm/util"
+	"github.com/oouxx/dm/util"
 )
 
 /**

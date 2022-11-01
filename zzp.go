@@ -7,7 +7,7 @@ package dm
 import (
 	"strconv"
 
-	"gitee.com/oouxx/dm/util"
+	"github.com/oouxx/dm/util"
 )
 
 const (

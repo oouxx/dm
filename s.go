@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gitee.com/oouxx/dm/util"
+	"github.com/oouxx/dm/util"
 )
 
 const (

@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"gitee.com/oouxx/dm/parser"
+	"github.com/oouxx/dm/parser"
 
-	"gitee.com/oouxx/dm/util"
+	"github.com/oouxx/dm/util"
 )
 
 func (dc *DmConnection) lex(sql string) ([]*parser.LVal, error) {

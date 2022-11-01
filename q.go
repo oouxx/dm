@@ -10,7 +10,7 @@ import (
 	"database/sql/driver"
 	"sync"
 
-	"gitee.com/oouxx/dm/i18n"
+	"github.com/oouxx/dm/i18n"
 )
 
 // 发版标记

@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"gitee.com/oouxx/dm/parser"
+	"github.com/oouxx/dm/parser"
 	"golang.org/x/text/encoding"
 )
 

@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"gitee.com/oouxx/dm/util"
+	"github.com/oouxx/dm/util"
 )
 
 var rwMap = make(map[string]*rwCounter)
