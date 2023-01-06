@@ -109,6 +109,22 @@ func (clob *DmClob) ReadString(pos int, length int) (result string, err error) {
 	return
 }
 
+func (clob *DmClob) ReadAllString() (result string, err error) {
+	if err = clob.checkValid(); err != nil {
+		return
+	}
+	length, _ := clob.GetLength()
+	if err = clob.checkFreed(); err != nil {
+		return "", err
+	}
+	if clob.local || clob.inRow || clob.fetchAll {
+		return string(clob.data[:]), nil
+	} else {
+		return clob.connection.Access.dm_build_1495(clob, 0, int32(length))
+	}
+}
+
+
 func (clob *DmClob) WriteString(pos int, s string) (n int, err error) {
 	if err = clob.checkValid(); err != nil {
 		return
